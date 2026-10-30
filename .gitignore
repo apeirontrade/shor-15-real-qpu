@@ -3,3 +3,8 @@ __pycache__/
 preview/
 *.log
 .DS_Store
+explainer/voice/*.wav
+explainer/frames/
+explainer/*.png
+explainer/preview_*.mp4
+video/explainer_draft.mp4
