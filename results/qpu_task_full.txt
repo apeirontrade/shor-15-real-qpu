@@ -1,0 +1,1 @@
+arn:aws:braket:eu-north-1:<account>:quantum-task/819c8104-449d-4d85-aa7f-b421099f8090

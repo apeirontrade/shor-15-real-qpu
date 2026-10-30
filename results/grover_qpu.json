@@ -1,0 +1,17 @@
+{
+ "device": "IQM Garnet (Amazon Braket)",
+ "experiment": "grover",
+ "task": "arn:aws:braket:eu-north-1:<account>:quantum-task/22b3d734-ec56-4677-bcc0-fa2c89b15690",
+ "shots": 1000,
+ "raw_counts": {
+  "101": 691,
+  "011": 29,
+  "110": 42,
+  "100": 54,
+  "010": 38,
+  "001": 54,
+  "111": 47,
+  "000": 45
+ },
+ "finished_utc": "2026-10-30T19:53:27Z"
+}
