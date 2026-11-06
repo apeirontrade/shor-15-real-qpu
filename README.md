@@ -51,6 +51,7 @@ grover.py              3-bit Grover key search
 run_qpu.py             submit Shor-15 to IQM Garnet
 qpu.py                 submit the ecdlp / grover experiments to IQM Garnet
 plots.py               results/hardware_results.png
+make_card.py           results/quantum_crypto_card.png (1200x1500 scorecard)
 vidkit.py              shared video renderer (Pillow -> ffmpeg)
 make_video.py          video/shor15_x.mp4   (50 s, Shor-15 only)
 make_compare_video.py  video/locks_x.mp4    (71 s, the four-lock comparison)
@@ -68,6 +69,7 @@ uv venv -p 3.12 .venv && uv pip install -p .venv/bin/python amazon-braket-sdk ma
 .venv/bin/python qpu.py ecdlp 1000
 .venv/bin/python qpu.py grover 1000
 .venv/bin/python plots.py
+.venv/bin/python make_card.py          # results/quantum_crypto_card.png; needs Space Grotesk, Inter, JetBrains Mono
 .venv/bin/python make_compare_video.py video/locks_x.mp4   # needs ffmpeg
 ```
 
